@@ -1,0 +1,44 @@
+
+.pija{
+    padding-top: 10px;
+    height: 90px;
+  }
+
+/* nuevo formato */
+
+body{
+    padding-top: 66px;
+}
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
+.celdas{
+    border-radius: 50px 50px;
+    margin: 50px;
+}
+
+.banner{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width:100%;
+    height: auto;
+}
+
+.perfil{
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 250%;
+    z-index: 1;
+}
+
+.perfil-flex{
+    height: 50px;
+}
+
+.lll{
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
